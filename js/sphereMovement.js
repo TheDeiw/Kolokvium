@@ -10,7 +10,7 @@ $(document).ready(function(){
 
     function makeNewPosition(){
         // Get viewport dimensions (remove the dimension of the div)
-        h = $balls.height() + 50;
+        h = $balls.height() + 250;
         w = $balls.width() + 50;
         
         nh = Math.floor(Math.random() * h);

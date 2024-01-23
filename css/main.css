@@ -1,5 +1,6 @@
 html{
-  height: 100%;
+  height: 100vh;
+  width: 100%;
 }
 
 body{
@@ -15,4 +16,14 @@ body{
   background: #5d73e4;
   filter: blur(75px); 
   z-index: -1;
+}
+
+.registration-field{
+  width: 100%;
+}
+
+.logo{
+  width: 100%;
+  height: 100%;
+  filter: invert(0.85);
 }
