@@ -10,19 +10,34 @@ body{
   width: 100%;
 }
 
+:root {
+  --rando: Math.floor((Math.random() * 20) + 1);
+}
+
 .sphere{
   position: absolute;
   width: 150px;
   height: 150px;
+  top: 50%;
+  left: 50%;
   border-radius: 455px;
   background: #5d73e4;
   filter: blur(75px); 
   z-index: -1;
+  /*transform: translate(-50%, -50%);
+  transition: transform 0.5s ease-in-out;*/
+  animation-name: box;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
 }
-#sphere3{
-  bottom: 10px;
-  right: 10px;
-  background: #5d73e4;
+@keyframes box {
+  0%   {left: 50%; top: 50%;}
+  17%  {left: var(--rando0); top: var(--rando1);}
+  25%  {left: var(--rando2); top: var(--rando3);}
+  50%  {left: var(--rando4); top: var(--rando5);}
+  75%  {left: var(--rando6); top: var(--rando7);}
+  87% {left: var(--rando8); top: var(--rando9);}
+  100% {left: 50%; top: 50%;}
 }
 
 .registration-field{
