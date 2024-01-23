@@ -6,7 +6,7 @@ $(document).ready(function(){
     $ballsDiv = $('.sphere > body');
     $container = $('body');
     
-    bspeed = 3000; // balls speed number. Higher price - lower speed
+    bspeed = 5000; // balls speed number. Higher price - lower speed
 
     function makeNewPosition(){
         // Get viewport dimensions (remove the dimension of the div)
@@ -25,6 +25,6 @@ $(document).ready(function(){
     }
     
     animateDiv('#sphere1');
-    animateDiv('#sphere2');
-    animateDiv('#sphere3');
+    //animateDiv('#sphere2');
+    //animateDiv('#sphere3');
 });
