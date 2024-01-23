@@ -3,16 +3,42 @@ html{
   width: 100%;
 }
 
+body {
+  background: linear-gradient(16deg, #0f0f0f, #b6bbff);
+  background-size: 400% 400%;
+
+  -webkit-animation: Gradient 49s ease infinite;
+  -moz-animation: Gradient 49s ease infinite;
+  animation: Gradient 49s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0%{background-position:17% 0%}
+  50%{background-position:84% 100%}
+  100%{background-position:17% 0%}
+}
+@-moz-keyframes Gradient {
+  0%{background-position:17% 0%}
+  50%{background-position:84% 100%}
+  100%{background-position:17% 0%}
+}
+@keyframes Gradient {
+  0%{background-position:17% 0%}
+  50%{background-position:84% 100%}
+  100%{background-position:17% 0%}
+}
+
+/*
 body{
   background: linear-gradient(170deg, rgba(100, 100, 100, 0.60) 0.93%, rgba(87, 86, 86, 0.08) 96.6%);
   backdrop-filter: blur(33px);
   height: 100vh;
   width: 100%;
-}
-
+}*/
+/*
 :root {
   --rando: Math.floor((Math.random() * 20) + 1);
-}
+}*/
 
 .sphere{
   position: absolute;
