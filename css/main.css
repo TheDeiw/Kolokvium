@@ -88,6 +88,7 @@ body{
   height: 100vh;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .logo{
@@ -97,15 +98,19 @@ body{
 }
 
 .title{
-  margin-top: 0px;
-  margin-bottom: 20px;
   color: #e7e7e7;
   text-align: center;
   font-family: Lobster;
-  font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+
+.kolo{
+  font-size: 60px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .description{
@@ -121,11 +126,6 @@ body{
 }
 
 button {
-  position: absolute;
-  bottom: 20px;
-  margin-left: 35%;
-  width: 30%;
-  height: 50px;
   transition-duration: 0.4s;
   border-radius: 20px;
   border: #FFF;
@@ -146,10 +146,31 @@ button:hover {
   color: white;
 }
 
+.next{
+  position: absolute;
+  left: 35%;
+  bottom: 20px;
+  width: 30%;
+  height: 50px;
+}
+
+.who{
+  font-size: 70px;
+}
 
 .choise-field{
   width: 100%;
   height: 100vh;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.choose{
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 70%;
+  height: 50px;
+  font-size: 35px;
 }

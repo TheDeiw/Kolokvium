@@ -21,13 +21,17 @@
 
     <div class="registration-field reveal">
         <img class="logo" src="images/Kolokvium.svg">
-        <p class="title">Колоквіум</p>
+        <p class="title kolo">Колоквіум</p>
         <p class="description">Створюй та виконуй завдання просто: робота з легкістю та насолодою!</p>
-        <button onclick="hide('.registration-field'); reveal('.choise-field');">Далі</button>
+        <button class="next" onclick="hide('.registration-field'); reveal('.choise-field');">Далі</button>
     </div>
 
     <div class="choise-field reveal hidden">
-        <p class="title">Хто ти?</p>
+        <p class="title who">Хто ти?</p>
+        <div class="conteiner">
+            <button class="choose" onclick="">Замовник</button>
+            <button class="choose" onclick="">Виконавець</button>
+        </div>
     </div>
     
 </body>
