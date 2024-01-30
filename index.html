@@ -30,7 +30,7 @@
         <p class="title who">Хто ти?</p>
         <div class="conteiner">
             <button class="choose" onclick="hide('.choise-field'); reveal('.customer-field');">Замовник</button>
-            <button class="choose" onclick="hide('.choise-field'); reveal('.registration-field');">Виконавець</button>
+            <button class="choose" onclick="hide('.choise-field'); reveal('.customer-start');">Виконавець</button>
         </div>
     </div>
 
@@ -40,6 +40,12 @@
             <button class="order" onclick="">Створити замовлення</button>
             <button class="order" onclick="">Створити пізніше</button>
         </div>
+    </div>
+
+    <div class="customer-start reveal hidden">
+        <p class="title who">Чудово!</p>
+        <p class="description-start">Розкажіть трішки про себе</p>
+        <button class="customer-start-button" onclick="hide('.choise-field'); reveal('.registration-field');">Поїхали</button>
     </div>
     
 </body>
