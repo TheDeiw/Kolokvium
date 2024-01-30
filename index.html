@@ -29,8 +29,16 @@
     <div class="choise-field reveal hidden">
         <p class="title who">Хто ти?</p>
         <div class="conteiner">
-            <button class="choose" onclick="">Замовник</button>
-            <button class="choose" onclick="">Виконавець</button>
+            <button class="choose" onclick="hide('.choise-field'); reveal('.customer-field');">Замовник</button>
+            <button class="choose" onclick="hide('.choise-field'); reveal('.registration-field');">Виконавець</button>
+        </div>
+    </div>
+
+    <div class="customer-field reveal hidden">
+        <p class="title who">Чудово!</p>
+        <div class="conteiner">
+            <button class="order" onclick="">Створити замовлення</button>
+            <button class="order" onclick="">Створити пізніше</button>
         </div>
     </div>
     
