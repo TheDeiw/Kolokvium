@@ -219,3 +219,43 @@ button:hover {
   height: 55px;
   font-size: 35px;
 }
+
+.customer-specialization{
+  width: 100%;
+  /*height: 100vh;*/
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.describe{
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 55px;
+}
+
+.description-specialization{
+  margin: auto;
+  margin-bottom: 50px;
+  color: rgba(255, 255, 255, 0.70);
+  width: 90%;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.input-text{
+  width: 80%;
+  height: 300px;
+  vertical-align: top; 
+  box-sizing: border-box;
+  background-color: rgba(216, 216, 216, 0.3);
+  border-radius: 10px;
+  color:white;
+  opacity: 1;
+  font-size: 20px;
+  border: 0;
+}

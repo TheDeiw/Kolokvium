@@ -1,8 +1,3 @@
-/*window.onload = function reveal() {
-    var reveal = document.querySelector(".reveal");
-    reveal.classList.add("active");
-}*/
-//reveals[i].classList.remove("active");
 function reveal(name){
     var reveal = document.querySelector(name);
     reveal.classList.remove("hidden");
